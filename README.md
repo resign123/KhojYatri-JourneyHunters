@@ -1,39 +1,61 @@
+# 🌍 KhojYatri - JourneyHunters
 
+## 🛠️ Technologies Used
+- **Frontend**: React.js, Bootstrap
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **State Management**: Redux
+- **Authentication**: JWT & Google Sign-In
+- **Development Tools**: Visual Studio Code, Postman, React-Redux DevTools
 
-Technology Used or frameworks or Environment: React Js, Node Js, Mongo DB, Express Js, Bootstrap
+---
 
-Software Utilized: VISUAL STUDIO CODE, POSTMAN, REACT-REDUX TOOLs
+## ✨ Project Overview
+**KhojYatri - JourneyHunters** is a platform where users can share their travel experiences, interact with posts, and engage with the travel community.
 
-This project Is about User Travelling Experience
+### 🔥 Features
+✅ **User Authentication** (JWT & Google Sign-In)  
+✅ **Create, Edit, and Delete Posts**  
+✅ **Like & Comment on Posts**  
+✅ **User Dashboard** to track posts  
+✅ **Dark Mode** for a better reading experience  
+✅ **Responsive UI** using Bootstrap  
 
-User can Post Their Experiences, Edit them, and Delete Them.
+---
 
-For authorization, we have used hashing algorithm as well as jwt token which enables high security for the user
+## 🚀 Getting Started
+### 📌 Prerequisites
+- **Node.js** (Download from [Node.js Official Site](https://nodejs.org/))
+- **MongoDB** (Cloud or Local Setup)
 
-Users can Comment and Like the posts or blogs on the website written by another user.
+### 🏗️ Installation & Setup
+#### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/resign123/KhojYatri-JourneyHunters.git
+cd KhojYatri-JourneyHunters
+```
 
-Users can log in through Google sign-in Also
+#### **2️⃣ Setup Client (Frontend)**
+```sh
+cd client
+npm install  # Install dependencies
+npm start    # Start the React App
+```
 
-Users have a Dashboard in which they can track their posts
+#### **3️⃣ Setup Server (Backend)**
+```sh
+cd server
+npm install   # Install dependencies
+npm run dev   # Start the server
+```
 
-Dark Mode is enabled in user articles.
+---
 
-To Setup up that, you first have a VISUAL STUDIO CODE 
+## 🔐 Authentication
+- **JWT-based authentication** for secure access.
+- **Google Sign-In** for seamless login experience.
 
-then start your work, 
-
-Download NodeJS SDK
-
-client side  :
-1. npm i
-2. npm start
-
-Server-side : 
-3. npm i
-4. npm run dev
-
-
-and you are ready to go ... 
+---
 
 
 
